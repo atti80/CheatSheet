@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>The CSS box model</h1>
+    <table>
+        <thead>
+            <th>Box model property</th>
+            <th>Definition</th>
+            <th>Examples</th>
+            <th>Derived properties</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">width</td>
+                <td rowspan="2">The width of the rectangle containing the content of the HTML element</td>
+                <td rowspan="2">width: 1000px;</td>
+                <td>min-width</td>
+            </tr>
+            <tr>
+                <td>max-width</td>
+            </tr>
+            <tr>
+                <td rowspan="2">height</td>
+                <td rowspan="2">The height of the rectangle containing the content of the HTML element</td>
+                <td rowspan="2">height: 700px;</td>
+                <td>min-height</td>
+            </tr>
+            <tr>
+                <td>max-height</td>
+            </tr>
+            <tr>
+                <td>content</td>
+                <td>Rectangle with dimensions of width and height</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="4">padding</td>
+                <td rowspan="4">The space between the content and the border</td>
+                <td>padding: 10px;</td>
+                <td>padding-top</td>
+            </tr>
+            <tr>
+                <td>padding: 10px 30px;</td>
+                <td>padding-right</td>
+            </tr>
+            <tr>
+                <td>padding: 10px 20px 30px 40px;</td>
+                <td>padding-bottom</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>padding-left</td>
+            </tr>
+            <tr>
+                <td rowspan="2">border</td>
+                <td rowspan="2">The line around the rectangle of the content and padding.</td>
+                <td rowspan="2">border: 2px solid gray;</td>
+                <td>border-bottom</td>
+            </tr>
+            <tr>
+                <td>border-top</td>
+            </tr>
+            <tr>
+                <td rowspan="4">margin</td>
+                <td rowspan="4">The space between the border and the adjacent HTML element</td>
+                <td>margin: 20px;</td>
+                <td>margin-top</td>
+            </tr>
+            <tr>
+                <td>margin: 20px 10px;</td>
+                <td>margin-right</td>
+            </tr>
+            <tr>
+                <td>margin: 20px 10px 30px 25px;</td>
+                <td>margin-bottom</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>margin-left</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
